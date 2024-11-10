@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Registrations</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input_box">
+                        <span class="detail">Full Thai name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Full English name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Student ID</span>
+                        <input type="number" placeholder="Enter your Student ID" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Phone Number</span>
+                        <input type="tel" placeholder="Enter your Phone Number" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Gender</span>
+                        <select id="Gender" name="Gender" required>
+                            <option value="Unsend">-Select-</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Prefer to not answer">Prefer to not answer</option>
+                        </select>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Birth Date</span>
+                        <input type="date" id="birthday" name="birthday" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Faculty</span>
+                        <select id="Faculty" name="Faculty" required>
+                            <option value="Unsend">-Select-</option>
+                            <option value="Science and Technology">Science and Technology</option>
+                            <option value="Social Sciences">Social Sciences</option>
+                            <option value="Journalism and Mass communication">Journalism and Mass communication</option>
+                            <option value="Accountancy">Accountancy</option>
+                            <option value="Medicine">Medicine</option>
+                            <option value="Engineer">Engineer</option>
+                        </select>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Department</span>
+                        <input type="text" placeholder="Enter your department" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Email</span>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input_box">
+                        <span class="detail">Booktype</span>
+                        <select id="Booktype" name="Booktype" required>
+                            <option value="Unsend">-Select-</option>
+                            <option value="Classic">Classic</option>
+                            <option value="Horor">Horor</option>
+                            <option value="Love Story">Love Story</option>
+                            <option value="Sci-Fi">Sci-Fi</option>
+                            <option value="Fairy tales">Fairy tales</option>
+                        </select>
+                    </div>
+                </div>
+
+                    <div class="ascertain">
+                        <p>Did you prefer puey ungphakorn library to send you a news? </p>
+                            <input type="radio" class="radio" name="x" value="y" id="y" />
+                            <label for="y">Yes</label>
+                            <input type="radio" class="radio" name="x" value="z" id="z" />
+                            <label for="z">No</label>
+                        </div>
+
+                <div class="button">
+                    <input type="submit" value="Registrations">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
